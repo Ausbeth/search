@@ -1,0 +1,180 @@
+#nav {
+  float: right;
+}
+#nav a {
+  display: inline;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#nav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+#main {
+  position: fixed;
+  width: 100%;
+  top: 20%;
+  left: 41.5%;
+}
+#main h1 {
+  display: inline;
+  font-family: sans-serif;
+  font-size: 100px;
+  letter-spacing: -10px;
+}
+#main h3 {
+  color: blue;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 100%;
+  margin-left: 15.5%;
+  margin-top: -1.5%;
+}
+
+#first, #fourth {
+  color: blue;
+}
+
+#second, #sixth {
+  color: red;
+}
+
+#third {
+  color: orange;
+}
+
+#fifth {
+  color: green;
+}
+
+#search {
+  position: fixed;
+  top: 45%;
+  left: 40%;
+  transform: translate(-45%, -40%);
+}
+#search input[type=text] {
+  display: block;
+  width: 250%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 24px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-size: 20px 20px;
+  background-position: 15px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+#search input[type=submit] {
+  position: fixed;
+  top: 195%;
+  left: 123%;
+  transform: translate(-50%, -50%);
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+#search input[type=submit]:hover {
+  border: 1px solid #f0f0f0;
+}
+
+.buttons {
+  position: fixed;
+  top: 52%;
+  left: 42%;
+  transform: translate(-45%, -40%);
+}
+.buttons input[type=submit] {
+  position: fixed;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.buttons input[type=submit]:hover {
+  border: 1px solid #f0f0f0;
+}
+.buttons .button2 {
+  position: fixed;
+  left: 150px;
+}
+
+.header {
+  border-bottom: 2px solid black;
+  padding: 25px;
+  text-align: left;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: blue;
+}
+
+#text {
+  padding-bottom: 10px;
+}
+#text #front {
+  display: inline;
+  font-family: sans-serif;
+}
+#text #back {
+  display: inline;
+  padding-left: 49.5%;
+  font-family: sans-serif;
+}
+
+#advanced {
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid black;
+}
+#advanced input[type=text] {
+  width: 50%;
+  padding: 10px;
+}
+#advanced label {
+  font-family: sans-serif;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+#advanced span {
+  font-family: sans-serif;
+  padding: 10px;
+}
+#advanced input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 49.9%;
+  border: none;
+  cursor: pointer;
+}
+#advanced input[type=submit]:hover {
+  background-color: rgb(0, 119, 255);
+}
+#advanced .col1 {
+  float: left;
+  width: 14%;
+  margin-top: 6px;
+}
+#advanced .col2 {
+  float: left;
+  width: 86%;
+  margin-top: 6px;
+}
+#advanced .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*# sourceMappingURL=style.css.map */

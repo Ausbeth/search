@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href= "style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="nav">
+        <a href="index.html">Google Search</a>
+        </div>
+
+        <div class="header">
+            <h1>Advanced Search</h1>
+        </div>
+
+        <div id="advanced">
+            <div id="text">
+                <h4 id="front">Find Pages with...</h5>
+                <h4 id="back">To do this in the search box</h5>
+            </div>
+
+            <form action="https://www.google.com/search">
+                <div class="row">
+                    <div class="col1">
+                        <label for="all_words">all these words: </label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="all_words" name="as_q" > <span>Type the important words: <b>tri-colour rat terrier</b></span><br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="exact_words">this exact word or phrase: </label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="exact_words" name="as_epq"> <span>Put exact words in quotes: <b>"rat terrier"</b></span><br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="any_words">any of these words: </label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="any_words" name="as_oq"> <span>Type <b>OR</b> between all the words you want: <b>miniature OR standard</b></span><br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col1">
+                        <label for="none_words">none of these words: </label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" id="none_words" name="as_eq"> <span>Put a minus sign just before words that you don't want: <b>-rodent, -"Jack Russell"</b></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="submit" value="Advanced Search">
+                  </div>
+            </form>
+        </div>
+
+    </body>
+</html>
